@@ -50,7 +50,7 @@ body {
 .corazon {
   position: absolute;
   top: 55%;
-  left: 53%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
@@ -65,4 +65,20 @@ body {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   z-index: 5;
   font-weight: 500;
+}
+
+/* Para pantallas móviles de hasta 412px de ancho */
+@media (min-width: 320px) and (max-width: 412px) {
+  .corazon {
+    top: 40%; /* baja el corazón unos píxeles más */
+  }
+
+  .texto {
+    font-size: 1.2rem;
+    padding: 0.3rem 0.8rem;
+  }
+
+  .footer {
+    font-size: 1.75rem;
+  }
 }
