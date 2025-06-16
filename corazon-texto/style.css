@@ -70,7 +70,7 @@ body {
 /* Para pantallas móviles de hasta 412px de ancho */
 @media (min-width: 320px) and (max-width: 412px) {
   .corazon {
-    top: 40%; /* baja el corazón unos píxeles más */
+    top: 35%; /* baja el corazón unos píxeles más */
   }
 
   .texto {
