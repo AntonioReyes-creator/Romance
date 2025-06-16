@@ -71,7 +71,7 @@ body {
 @media (min-width: 320px) and (max-width: 412px) {
   .corazon {
     top: 35%; /* Ajuste para pantallas pequeñas */
-    left: 50%;
+
   }
 
   .texto {
@@ -79,7 +79,4 @@ body {
     padding: 0.3rem 0.8rem;
   }
 
-  .footer {
-    font-size: 1.75rem;
-  }
 }
