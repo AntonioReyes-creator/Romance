@@ -1,0 +1,68 @@
+/* Reset y fuente base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #000000;
+  background-image: url('https://cdn.buymeacoffee.com/uploads/rewards/2025-04-05/1/041055_Code_5.gif');
+  background-repeat: no-repeat;
+  background-size: contain; /* ← Ajusta la imagen para que entre sin recortarse */
+  background-position: center center;
+
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Texto centrado dentro del corazón */
+.texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  
+  padding: 0.4rem 1rem;
+  border-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+  
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.corazon{
+	position: absolute;
+
+	top: 51%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  z-index: 5;
+  font-weight: 500;
+}
+
+
